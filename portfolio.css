@@ -1,0 +1,90 @@
+.topnav{
+    background-color:dimgray;
+    overflow:auto;
+    text-align: center;
+}
+.topnav a{
+    float:left;
+    color:lightcoral;
+    text-align:center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+.topnav a:hover{
+    background-color:#ddd;
+    color: violet;
+}
+.topnav a.active{
+    background-color: teal;
+    color: yellow;
+}
+.card{
+    background-image: linear-gradient(grey,brown);
+    padding: 70px;
+    box-shadow: 0  0 rgba(0,0,0, 0.2);
+    margin:inherit;
+    text-align: center;
+    width: 500px;
+    float: left;
+}
+title{
+        color:#555;
+        font-size: 18px;
+    }
+button{
+border: none;
+font: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor:pointer;
+width: 100%;
+font-size: 18px;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+button :hover,a :hover{
+    opacity: 0.7;
+}
+img{
+    border: 2px #555;
+    float:left;
+    padding: 20px;
+    background:black;
+    height: auto;
+    max-width: 100%;
+    
+}
+.las{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    text-shadow: 1px 1px black;
+}
+.skill{
+    text-align: center;
+    padding: 10px;
+}
+*{box-sizing: border-box;}
+
+
+.container{
+    margin-left:34%;
+   max-width: 100%;
+    background-color: #ddd;
+    padding: 6px;   
+}
+.html{width: 60%;background-color: crimson;}
+.css{width: 40%;background-color:darkgreen;}
+.java{width: 30%;background-color:darkorchid}
+.angular{width: 35%;background-color:deeppink;}
+body{
+    background-image: linear-gradient(yellow,green);
+}
