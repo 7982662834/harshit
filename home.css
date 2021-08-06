@@ -1,0 +1,177 @@
+body{
+    background-image:url(img/blood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.top{
+    overflow: hidden;
+    padding: 10px;
+}
+.nav a{
+    padding: 6px 2px;
+    text-align: center;
+    color:blueviolet;
+    font-size:smaller;
+    text-decoration: none;
+}
+.corner{
+    color:blue;
+    float: right;
+}
+.nav a:hover{
+     color:red;
+}
+ img{
+    height:auto;
+    width:4%;
+    display: flexbox;
+    position:relative;
+}
+.right{
+    display: inline-block;
+    padding: 20px;
+    padding-top: 60px;
+}
+.right h2{
+    color: red;
+}
+.right span{
+    color: blue;
+}
+.right a{
+    text-align: center;
+    color:blueviolet;
+    font-size:large;
+    text-decoration: none;
+}
+.right a:hover{
+    color: red;
+}
+.right button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size:medium;
+    opacity: 1;
+    text-align: center;
+    height: 50px;
+}
+.right button:hover{
+    opacity: 1.5;
+    background-color: red;
+    border: red;
+    color: black;
+}
+.navbar{
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    height: auto;
+}
+.navbar a{
+    padding:8px 12px ;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+    color:white;
+}
+.navbar a:hover{
+    background-color:black;
+}
+.navbar .active{
+    background-color: black;
+}
+.bet img{
+   height: auto;
+   min-width: 100%;
+   position:relative;
+}
+.beta{
+    display:inline-flexbox;
+    padding: 20px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.beta b{
+    font-size: xx-large;
+}
+.beta select{
+    font-size: x-large;
+}
+.beta input[type]{
+    font-size: x-large;
+}
+.beta button{
+    font-size: x-large;
+    background-color: yellow;
+    color:black;
+    border: yellow;
+    cursor:pointer;
+    opacity:0.8;
+}
+.beta button:hover{
+    opacity: 1.5;
+    background-color: darkgreen;
+    color: white;
+}
+.syn{
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    padding-bottom: 20px;
+}
+ .get{
+    display: inline-flexbox;
+    padding-left: 280px;
+    padding-top: 50px;
+    font-size: large;
+}
+.get img{
+    height: auto;
+    width: 40%;
+}
+.get button{
+    background-color: black;
+    color: white;
+    border: black;
+    font-size: medium;
+    text-align: center;
+    height: 40px;
+    width: 150px;
+    opacity: 1;
+    cursor: pointer;
+}
+.get button:hover{
+    background-color: yellow;
+    opacity: 1.5;
+    color: black;
+}
+.end{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding-right: 20px;
+}
+.end span{
+    color: blue;
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+.footer a{
+    padding: 40px;
+    font-size: x-large;
+    color: magenta;
+}
+.footer a:hover{
+    font-size: xx-large;
+    color:red;
+}
+
+
+
+
